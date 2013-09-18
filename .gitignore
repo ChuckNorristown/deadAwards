@@ -1,5 +1,5 @@
 .DS_Store
-.html
-.scssc
-.css
+*.html
+*.scssc
+*.css
 .sass-cache/
