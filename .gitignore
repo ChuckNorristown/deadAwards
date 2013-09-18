@@ -1,5 +1,11 @@
 .DS_Store
+<<<<<<< HEAD
 *.html
 *.scssc
 *.css
+=======
+.html
+.scssc
+.css
+>>>>>>> 7a77140519ff9b35948112f2bfdd0dd20f05d2d5
 .sass-cache/
