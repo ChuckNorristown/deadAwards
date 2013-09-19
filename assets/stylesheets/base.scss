@@ -1,5 +1,6 @@
 @import "compass";
 
+
 body {
   background: #000 url('../images/bg.png') repeat-x;
   margin: 0;
@@ -103,10 +104,7 @@ footer {
   margin-top: -40px;
   padding-right:7px;
   float: right;
-}
-
-.leftContent {
-
+  border: 0px;
 }
 
 .map {
@@ -128,10 +126,6 @@ footer {
     box-shadow: 0px 0px 20px #808080;
     border-radius: 20px;
   }
-}
-
-.bar_big {
-  
 }
 
 
