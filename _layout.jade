@@ -2,17 +2,20 @@ doctype 5
 html(lang='en')
   head
     link(rel='stylesheet', type='text/css', href='assets/stylesheets/base.css')
-body
+- var bodyClass = '';
+block vars
+body(id='#{bodyClass}')
+
  #container
   #brand_box
     nav
-      a(href='it_lives.html') HOME 
-      a(href='rules_and_undeadlines.html') RULES
-      a(href='#') CATEGORIES
-      a(href='#') SUBMIT
-      a(href='event.html') EVENT
-      a(href='judges.html') JUDGES
-      a(href='#') WINNERS
+      a#homeCurrent(href='it_lives.html') HOME 
+      a#rulesCurrent(href='rules_and_undeadlines.html') RULES
+      a#categoriesCurrent(href='#') CATEGORIES
+      a#submitCurrent(href='#') SUBMIT
+      a#eventCurrent(href='event.html') EVENT
+      a#judgesCurrent(href='judges.html') JUDGES
+      a#winnersCurrent(href='#') WINNERS
     div
       block hero
   #content

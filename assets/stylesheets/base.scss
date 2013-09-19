@@ -42,6 +42,16 @@ a:hover {
   color: #fd8329;
 }
 
+body#home a#homeCurrent,
+body#rules a#rulesCurrent,
+body#categories a#categoriesCurrent,
+body#submit a#submitCurrent,
+body#event a#eventCurrent,
+body#judges a#judgesCurrent,
+body#winners a#winnersCurrent {
+  color: #a9a841;
+}
+
 h1 {
 	color: #a9a841;
 }
