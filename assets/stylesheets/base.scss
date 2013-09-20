@@ -23,11 +23,6 @@ body {
 	padding-bottom:20px;
 }
 
-#content {
-	text-align: left;
-  @include legacy-pie-clearfix;
-}
-
 nav {
 	text-align: center;
 	padding-bottom: 10px;
@@ -66,26 +61,26 @@ h2 {
 
 p, h2, {
 	color: white;
+  width: auto;
 }
 
 span {
 	color: #fd8329;
 }
 
-.leftContent {
-  float: left;
-  width: 550px;
+#content {
+  text-align: left;
+  @include legacy-pie-clearfix;
 }
 
 .eventContent {
   float: left;
   width: auto;
-  padding-left: 25px;
 }
 
 .homeContent {
   float: left;
-  width: 680px;
+  width: 661px;
 }
 
 footer {
@@ -112,6 +107,7 @@ footer {
 #keynote {
   padding-top: 45px;
   padding-bottom: 100px;
+  float: left;
 }
 
 .details {
