@@ -95,12 +95,17 @@ footer {
     #copyright {
       color: white;
       margin: 0px;
+      float: left;
     }
 
     #a {
       float: right;
       margin-right: 40px;
-      padding-top:15px;
+      padding-top:16px;
+    }
+
+    #adcp {
+      padding-bottom: 0px;
     }
 }
 
