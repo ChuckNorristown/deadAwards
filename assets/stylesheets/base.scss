@@ -57,6 +57,7 @@ body#winners a#winnersCurrent {
 
 h1 {
 	color: #a9a841;
+  margin: 0;
 }
 
 h2 {
@@ -73,7 +74,17 @@ span {
 
 .leftContent {
   float: left;
-  width: 300px;
+  width: 550px;
+}
+
+.eventContent {
+  float: left;
+  width: auto;
+}
+
+.homeContent {
+  float: left;
+  width: 625px;
 }
 
 footer {
