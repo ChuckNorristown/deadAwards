@@ -30,7 +30,7 @@ nav {
 	a {
     display: inline-block;
     min-width: 91px;
-		color: white;
+		color: #FCFCFC;
 		text-decoration: none;
 		padding: 16px 20px 31px 2px
 	}
@@ -62,15 +62,17 @@ h1 {
 
 h2 {
 	text-decoration: underline;
+  font-size: 17px;
 }
 
 p, h2, {
-	color: white;
+	color: #FCFCFC;
   width: auto;
-  font-size: 15px;
   font-family: 'EB Garamond', serif;
   word-spacing: 2px;
+  letter-spacing: 1px;
   padding-left: 15px;
+  padding-top: 4px;
 }
 
 .rules {
@@ -109,7 +111,7 @@ footer {
     word-spacing: 2px;
     font-size: 14px;
     #copyright {
-      color: white;
+      color: #b6bec8;
       margin: 0px;
       float: left;
       padding-top: 5px;
