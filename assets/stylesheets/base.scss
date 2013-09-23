@@ -53,9 +53,11 @@ body#winners a#winnersCurrent {
 
 h1 {
   font-family: 'Smythe', cursive;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
+  font-size: 29px;
 	color: #a9a841;
   margin: 0;
+  padding-left: 15px;
 }
 
 h2 {
@@ -65,9 +67,10 @@ h2 {
 p, h2, {
 	color: white;
   width: auto;
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'EB Garamond', serif;
   word-spacing: 2px;
+  padding-left: 15px;
 }
 
 span {
@@ -99,6 +102,9 @@ footer {
   	padding: 20px 0;
   	margin-top: 25px;
     text-align: left;
+    font-family: 'Garamond', serif;
+    word-spacing: 2px;
+    font-size: 14px;
     #copyright {
       color: white;
       margin: 0px;
